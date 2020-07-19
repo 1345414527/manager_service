@@ -1,0 +1,41 @@
+server:
+  port: 11111
+spring:
+  application:
+    name: auth-service
+  redis:
+    host: ip
+    password: 123456
+    timeout: 60s
+    lettuce:
+      pool:
+        max-active: 200
+        max-idle: 20
+        min-idle: 0
+        max-wait: -1ms
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+
+
+manager:
+  jwt:
+    secret: ea61b46dse2@manager@9ds966@codekiller@33da # 登录校验的密钥
+    pubKeyPath: E:\chrome\token\\rsa.pub # 公钥地址
+    priKeyPath: E:\chrome\token\\rsa.pri # 私钥地址
+    expire: 30 # 过期时间,单位分钟
+    cookieName: MC_TOKEN
+  authcode:
+    phoneName: user:verify:phone:/
+    emailName: user:verify:email:/
+
+
+ribbon:
+  ReadTimeout: 120000
+  ConnectTimeout: 30000

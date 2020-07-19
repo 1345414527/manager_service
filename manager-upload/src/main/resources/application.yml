@@ -1,0 +1,40 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: upload-service
+  servlet:
+    multipart:
+      file-size-threshold: 5MB
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    instance:
+      lease-expiration-duration-in-seconds: 15
+      lease-renewal-interval-in-seconds: 5
+
+
+uploadinfo:
+  content-types:
+    - image/jpeg
+    - image/png
+  imageUrl: http://image.codekiller.top/
+
+fdfs:
+  so-timeout: 1501 # 超时时间
+  connect-timeout: 601 # 连接超时时间
+  thumb-image: # 缩略图
+    width: 60
+    height: 60
+  tracker-list: # tracker地址：你的虚拟机服务器地址+端口（默认是22122）
+    - ip:端口
+
+
+
+
+logging:
+  level:
+    top.codekiller.leyou: debug

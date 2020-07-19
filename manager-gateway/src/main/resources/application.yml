@@ -1,0 +1,62 @@
+server:
+  port: 10010
+spring:
+  application:
+    name: gateway-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    fetch-registry: true
+    registry-fetch-interval-seconds: 5
+
+zuul:
+  prefix: /api
+  routes:
+    search-service: /search/**
+    user-service: /user/**
+    auth-service: /auth/**
+    examination-service: /examination/**
+
+  add-host-header: true  #在头信息增加host信息
+  sensitive-headers:   # 覆盖默认敏感头信息
+  host:
+    connect-timeout-millis: 3000
+    socket-timeout-millis: 3000
+    max-total-connections: 10000
+    max-per-route-connections: 10000
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 15000000 # 设置hystrix的超时时间500000ms秒,要大于ribbon两个时间*2
+
+ribbon:
+  ConnectTimeout: 1000000 #请求连接的超时时间，默认时间为1秒
+  ReadTimeout: 1000000 #请求处理的超时时间
+  MaxAutoRetries: 1 # 同一实例的重试次数
+  OkToRetryOnAllOperations: true # 是否对所有操作重试
+  MaxAutoRetriesNextServer: 2 # 同一服务不同实例的重试次数
+
+logging:
+  level:
+    top.codekiller.manager.gateway: debug
+
+
+manager:
+  jwt:
+    pubKeyPath: E:\chrome\token\\rsa.pub # 公钥地址
+    cookieName: MC_TOKEN
+  filter:
+    allowPaths:
+      - /api/user/login/
+      - /api/user/register
+      - /api/user/userInfo/
+      - /api/user/authcode/
+      - /api/auth/
+
+

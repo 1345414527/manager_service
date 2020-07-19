@@ -1,0 +1,94 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/manager?characterEncoding=UTF-8&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x';
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,slf4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+  rabbitmq:
+    host: ip
+    virtual-host: manager
+    username: manager
+    password: manager
+  redis:
+    host: ip
+    password: 123456
+    # 连接超时时间（毫秒）默认是2000ms
+    timeout: 60s
+    ## springboot2.0之后将连接池由jedis改为lettuce
+    lettuce:
+      pool:
+        # 连接池最大连接数（使用负值表示没有限制）
+        max-active: 200
+        # 连接池中的最大空闲连接
+        max-idle: 20
+        # 连接池中的最小空闲连接
+        min-idle: 0
+        # 连接池最大阻塞等待时间（使用负值表示没有限制）
+        max-wait: -1ms
+
+
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: assign_id
+      logic-delete-field: deleted  #全局逻辑删除字段值 3.3.0开始支持，详情看下面。
+      logic-delete-value: 1  #已删除
+      logic-not-delete-value: 0  #未删除
+
+logging:
+  level:
+    top.codekiller.manager.user: debug
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+      register-with-eureka: true
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+
+manager:
+  jwt:
+    pubKeyPath: E:\chrome\token\\rsa.pub # 公钥地址
+    cookieName: MC_TOKEN
+  filter:
+    allowPaths:
+      - /login/
+      - /register
+      - /userInfo/
+      - /authcode/
+      - /user/
+      - swagger-ui
+      - swagger-resources
+    managerPath:
+      - updateStatus
+      - /userData/calculate/all
+
+
+  authcode:
+    phoneName: user:verify:phone:/
+    emailName: user:verify:email:/
+    exchangeName: MANAGER_EXCHANGE_SMS

@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: ip
+    virtual-host: manager
+    username: manager
+    password: manager
+

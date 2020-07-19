@@ -1,0 +1,33 @@
+server:
+  port: 8085
+
+spring:
+  application:
+    name: search-service
+  data:
+    elasticsearch:
+      cluster-name: elasticsearch
+      cluster-nodes: ip:9300
+  rabbitmq:
+    host: ip
+    virtual-host: manager
+    username: manager
+    password: manager
+  jackson:
+    default-property-inclusion: non_null  #配置json处理室忽略空值
+
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+
+
+ribbon:
+  ReadTimeout: 120000
+  ConnectTimeout: 30000

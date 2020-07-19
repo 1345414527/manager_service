@@ -1,0 +1,132 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: examination-service
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/manager?characterEncoding=UTF-8&serverTimezone=UTC&zeroDateTimeBehavior=convertToNull
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 30000
+    validationQuery: select 'x';
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,wall,slf4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+  redis:
+    host: ip
+    password: 123456
+    timeout: 60s
+    lettuce:
+      pool:
+        max-active: 200
+        max-idle: 20
+        min-idle: 0
+        max-wait: -1ms
+  data:
+    mongodb:
+      address: ip:端口
+      username: manager
+      password: manager
+      authentication-database: admin  #认证的库
+      database: exam    #操作的库
+      # 连接池配置
+      clientName: ${spring.application.name} # 客户端的标识，用于定位请求来源等
+      connectionTimeoutMs: 100000     # TCP连接超时，毫秒
+      readTimeoutMs: 150000       # TCP读取超时，毫秒
+      poolMaxWaitTimeMs: 3000        #当连接池无可用连接时客户端阻塞等待的时长，单位毫秒
+      connectionMaxIdleTimeMs: 60000   #TCP连接闲置时间，单位毫秒
+      connectionMaxLifeTimeMs: 6000000    #TCP连接最多可以使用多久，单位毫秒
+      heartbeatFrequencyMs: 200000      #心跳检测发送频率x，单位毫秒
+      minHeartbeatFrequencyMs: 80000    #最小的心跳检测发送频率，单位毫秒
+      heartbeatConnectionTimeoutMs: 100000  #心跳检测TCP连接超时，单位毫秒
+      heartbeatReadTimeoutMs: 150000    #心跳检测TCP连接读取超时，单位毫秒
+      connectionsPerHost: 20       # 每个host的TCP连接数
+      minConnectionsPerHost: 5     #每个host的最小TCP连接数
+      #计算允许多少个线程阻塞等待可用TCP连接时的乘数，算法：threadsAllowedToBlockForConnectionMultiplier*connectionsPerHost，当前配置允许10*20个线程阻塞
+      threadsAllowedToBlockForConnectionMultiplier: 10
+  quartz:
+    # 将任务等保存化到数据库
+    job-store-type: jdbc
+    wait-for-jobs-to-complete-on-shutdown: true
+    overwrite-existing-jobs: true
+    properties:
+      org:
+        quartz:
+          # scheduler相关
+          scheduler:
+            instanceName: scheduler
+            instanceId: AUTO
+          # 持久化相关
+          jobStore:
+            class: org.quartz.impl.jdbcjobstore.JobStoreTX
+            driverDelegateClass: org.quartz.impl.jdbcjobstore.StdJDBCDelegate
+            # 表示数据库中相关表是QRTZ_开头的
+            tablePrefix: QRTZ_
+            useProperties: false
+          # 线程池相关
+          threadPool:
+            class: org.quartz.simpl.SimpleThreadPool
+            threadCount: 20
+            threadPriority: 5
+            threadsInheritContextClassLoaderOfInitializingThread: true
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    registry-fetch-interval-seconds: 10
+  instance:
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 15
+
+mybatis-plus:
+  global-config:
+    db-config:
+      table-prefix: tb_
+      id-type: assign_id
+  configuration:
+    map-underscore-to-camel-case: true
+
+ribbon:
+  ConnectTimeout: 1000000
+  ReadTimeout: 1000000
+  MaxAutoRetries: 1
+  OkToRetryOnAllOperations: true
+  MaxAutoRetriesNextServer: 2
+
+
+manager:
+  jwt:
+    pubKeyPath: E:\chrome\token\\rsa.pub # 公钥地址
+    cookieName: MC_TOKEN
+  filter:
+    allowPaths:
+      - swagger-ui
+      - swagger-resources
+      - allSubject
+      - publicTests
+      - examResult
+      - examAnswer
+      - subscribeExam
+      - userSubscribeInfo
+      - /topic/ids
+      - deleteSubscribe
+      - /examData/
+  redisname:
+    subjectName: 'user:subject:'
+    topicName: 'user:topic:'
+
+logging:
+  config: classpath:logback-spring.xml

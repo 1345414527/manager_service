@@ -1,0 +1,20 @@
+server:
+  port: 10086
+
+spring:
+  application:
+    name: registery-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+    register-with-eureka: false # 把自己注册到eureka服务列表
+    fetch-registry: false # 拉取eureka服务信息
+  server:
+    eviction-interval-timer-in-ms: 5000 # 每隔5秒钟，进行一次服务列表的清理
+    enable-self-preservation: false
+
+logging:
+  level:
+    top.codekiller.manager.registery: debug

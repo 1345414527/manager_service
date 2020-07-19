@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+scan：当此属性设置为true时，配置文件如果发生改变，将会被重新加载，默认值为true。
+scanPeriod：设置监测配置文件是否有修改的时间间隔，如果没有给出时间单位，默认单位是毫秒当scan为true时，此属性生效。默认的时间间隔为1分钟。
+debug：当此属性设置为true时，将打印出logback内部日志信息，实时查看logback运行状态。默认值为false。
+-->
+<configuration scan="false" scanPeriod="60 seconds" debug="false">
+    <!-- 定义日志的根目录 -->
+    <property name="LOG_HOME" value="F:\\日志存放\\manager" />
+    <!-- 定义日志文件名称 -->
+    <property name="debug" value="manager-codekiller-debug"></property>
+    <property name="info" value="manager-codekiller-info"></property>
+    <property name="error" value="manager-codekiller-error"></property>
+    <property name="warn" value="manager-codekiller-warn"></property>
+    <property name="job" value="manager-codekiller-job"></property>
+    <property name="service" value="manager-codekiller-service"></property>
+    <property name="fileName" value="logback"></property>
+
+
+
+    <!-- ch.qos.logback.core.ConsoleAppender 表示控制台输出 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--
+        日志输出格式：
+			%d表示日期时间，
+			%thread表示线程名，
+			%-5level：级别从左显示5个字符宽度
+			%logger{50} 表示logger名字最长50个字符，否则按照句点分割。
+			%msg：日志消息，
+			%n是换行符
+			%-15.15():如果记录的线程字符长度小于15(第一个)则用空格在右侧补齐,如果字符长度大于15(第二个),则从开头开始截断多余的字符
+			%-50.50()：如果记录的logger字符长度小于50(第一个)则用空格在右侧补齐,如果字符长度大于50(第二个),则从开头开始截断多余的字符
+			%highlight()：颜色，info为蓝色，warn为浅红，error为加粗红，debug为黑色
+			%boldMagenta:粗红
+			%magenta:洋红
+			$cyan:青色
+			%white:白色
+        -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <springProfile name="dev">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n</pattern>
+            </springProfile>
+            <springProfile name="!dev">
+                <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n</pattern>
+            </springProfile>
+        </layout>
+    </appender>
+
+    <!--控制台打印警告信息的单独处理-->
+    <appender name="consoleWarn" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <springProfile name="dev">
+                <pattern>%magenta(%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n)</pattern>
+            </springProfile>
+            <springProfile name="!dev">
+                <pattern>%magenta(%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n)</pattern>
+            </springProfile>
+        </layout>
+    </appender>
+
+    <!--控制台打印错误信息的单独处理-->
+    <appender name="consoleError" class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <springProfile name="dev">
+                <pattern>%boldMagenta(%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n)</pattern>
+            </springProfile>
+            <springProfile name="!dev">
+                <pattern>%boldMagenta(%d{yyyy-MM-dd HH:mm:ss.SSS}  %highlight(%-5level) %magenta([%-15.15(%thread)])  %cyan( %-50.50(%logger{50} )) : %msg%n)</pattern>
+            </springProfile>
+        </layout>
+    </appender>
+
+
+
+    <!--debug日志存储-->
+    <appender name="debug" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 指定日志文件的名称 -->
+        <file>${LOG_HOME}/${debug}/${fileName}.log</file>
+
+        <!--过滤,只存储DEBUG级别的日志-->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>DEBUG</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+            <!--
+           当发生滚动时，决定 RollingFileAppender 的行为，涉及文件移动和重命名
+           TimeBasedRollingPolicy： 最常用的滚动策略，它根据时间来制定滚动策略，既负责滚动也负责出发滚动。
+           -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <!--
+                滚动时产生的文件的存放位置及文件名称 %d{yyyy-MM-dd}：按天进行日志滚动
+                %i：当文件大小超过maxFileSize时，按照i进行文件滚动
+            -->
+            <fileNamePattern>${LOG_HOME}/${debug}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+
+            <!--
+               可选节点，控制保留的归档文件的最大数量，超出数量就删除旧文件。假设设置每天滚动，
+               且maxHistory是365，则只保存最近365天的文件，删除之前的旧文件。注意，删除旧文件是，
+               那些为了归档而创建的目录也会被删除。
+            -->
+            <MaxHistory>365</MaxHistory>
+
+                <!--
+                   当日志文件超过maxFileSize指定的大小是，根据上面提到的%i进行日志文件滚动 注意此处配置SizeBasedTriggeringPolicy
+                   是无法实现按文件大小进行滚动的，必须配置timeBasedFileNamingAndTriggeringPolicy
+               -->
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--info日志存储-->
+    <appender name="info" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${info}/${fileName}.log</file>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <fileNamePattern>${LOG_HOME}/${info}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <MaxHistory>365</MaxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--warn日志存储-->
+    <appender name="warn" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${warn}/${fileName}.log</file>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>WARN</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <fileNamePattern>${LOG_HOME}/${warn}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <MaxHistory>365</MaxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--error日志存储-->
+    <appender name="error" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${error}/${fileName}.log</file>
+
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+
+            <fileNamePattern>${LOG_HOME}/${error}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <MaxHistory>365</MaxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+
+
+    <!--job日志存储-->
+    <appender name="job" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 指定日志文件的名称 -->
+        <file>${LOG_HOME}/${job}/${fileName}.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${job}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <MaxHistory>365</MaxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--service日志存储-->
+    <appender name="service" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- 指定日志文件的名称 -->
+        <file>${LOG_HOME}/${service}/${fileName}.log</file>
+
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${service}/${fileName}-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+
+            <MaxHistory>365</MaxHistory>
+
+            <timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+                <maxFileSize>100MB</maxFileSize>
+            </timeBasedFileNamingAndTriggeringPolicy>
+        </rollingPolicy>
+        <!-- 日志输出格式： -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS}  %-5level  [%-15.15(%thread)]  %-50.50(%logger{50}) :  %msg%n</pattern>
+        </layout>
+    </appender>
+
+    <!--
+		logger主要用于存放日志对象，也可以定义日志类型、级别,并且会先执行。
+		name：表示匹配的logger类型前缀，也就是包的前半部分
+		level：要记录的日志级别，包括 TRACE < DEBUG < INFO < WARN < ERROR
+		additivity：作用在于children-logger是否使用 rootLogger配置的appender进行输出，即是否将信息提交给root
+		        false：表示只用当前logger的appender-ref，
+		        true：表示当前logger的appender-ref和rootLogger的appender-ref都有效
+    -->
+
+    <!--job包的单独输出-->
+    <logger name="top.codekiller.manager.examination.job"  level="debug"   additivity="false">
+        <appender-ref ref="job"></appender-ref>
+        <appender-ref ref="console"></appender-ref>
+    </logger>
+
+    <!--service包的单独输出(用户的操作)-->
+    <logger name="top.codekiller.manager.examination.service"  level="info"   additivity="false">
+        <appender-ref ref="service"></appender-ref>
+        <appender-ref ref="console"></appender-ref>
+    </logger>
+
+    <!--mapper包的单独输出(输出sql信息,至关重要)-->
+    <logger name="top.codekiller.manager.examination.mapper"  level="debug"   additivity="false">
+        <appender-ref ref="console"></appender-ref>
+    </logger>
+
+    <!--debug的单独输出-->
+    <logger name="top.codekiller.manager.examination"  level="debug"   additivity="false">
+        <appender-ref ref="console"/>
+        <appender-ref ref="debug" />
+    </logger>
+
+    <!--warn的单独输出-->
+    <logger name="top.codekiller.manager.examination"  level="warn"   additivity="false">
+        <appender-ref ref="consoleWarn"/>
+        <appender-ref ref="warn" />
+    </logger>
+
+
+    <!--error的单独输出-->
+    <logger name="top.codekiller.manager.examination"  level="error"   additivity="false">
+        <appender-ref ref="consoleError"/>
+        <appender-ref ref="error"/>
+    </logger>
+
+    <!--
+        root与logger是父子关系，没有特别定义则默认为root，任何一个类只会和一个logger对应，
+        要么是定义的logger，要么是root，判断的关键在于找到这个logger，然后判断这个logger的appender和level。
+    -->
+    <root level="info">
+        <appender-ref ref="console"/>
+        <appender-ref ref="debug" />
+        <appender-ref ref="info" />
+        <appender-ref ref="warn" />
+        <appender-ref ref="error" />
+    </root>
+
+</configuration>
