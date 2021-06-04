@@ -41,7 +41,7 @@
         <common.lang3.version>3.10</common.lang3.version>
         <common.codec.version>1.14</common.codec.version>
         <common.email.version>1.5</common.email.version>
-        <hibernate-validator.version>6.1.4.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <jjwt-version>0.9.0</jjwt-version>
         <jodatime.version>2.10.5</jodatime.version>
         <commons.pool2.version>2.8.0</commons.pool2.version>
