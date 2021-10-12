@@ -1,0 +1,576 @@
+[{
+  "_id": {
+    "$oid": "5ed4c9236551542f2c30f9c1"
+  },
+  "name": "第一届智商测试!",
+  "subject": 1266661195234037800,
+  "school": "卡塞尔学院",
+  "creator": "codekiller",
+  "astrict": 120,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed226886551543598d5c4f4",
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cc6a6551542f2c30f9c7",
+    "5ed4ce3a6551542f2c30f9c9",
+    "5ed4ce416551542f2c30f9ca",
+    "5ed3d9866551544140c95511",
+    "5ed4cbb16551542f2c30f9c4"
+  ],
+  "judge": [
+    "5ed3d8056551544140c9550f",
+    "5ed3d8056551544140c9550f",
+    "5ed4cd046551542f2c30f9c8",
+    "5ed4c9b36551542f2c30f9c3"
+  ],
+  "selectScore": 10,
+  "judgeScore": 5,
+  "note": "<p><strong class=\"ql-font-serif\" style=\"color: rgb(194, 133, 255);\">简单的智商测试题</strong></p>",
+  "created": {
+    "$date": "2020-06-01T09:23:47.301Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed4c9896551542f2c30f9c2"
+  },
+  "name": "第二届智商测试",
+  "subject": 1266324796660248600,
+  "school": "卡塞尔学院",
+  "creator": "codekiller",
+  "astrict": 90,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed294f06551541d5c6de1bd"
+  ],
+  "judge": [
+    "5ed3d8056551544140c9550f",
+    "5ed3d6c66551544140c9550d"
+  ],
+  "selectScore": 50,
+  "judgeScore": 50,
+  "note": "<p>简单的智商测试题</p>",
+  "created": {
+    "$date": "2020-06-01T09:25:29.485Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed4cfdd6551542f2c30f9cd"
+  },
+  "name": "第三届智商测试",
+  "subject": 1266324796660248600,
+  "school": "卡塞尔学院",
+  "creator": "codekiller",
+  "astrict": 90,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb16551542f2c30f9c4"
+  ],
+  "judge": [
+    "5ed3d8056551544140c9550f",
+    "5ed3d8056551544140c9550f"
+  ],
+  "selectScore": 20,
+  "judgeScore": 20,
+  "note": "简单的智商测试题",
+  "created": {
+    "$date": "2020-06-01T09:52:29.641Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed4d0c56551542f2c30f9ce"
+  },
+  "name": "第一届看看看测试",
+  "subject": 1266333627301752800,
+  "school": "卡塞尔学院",
+  "creator": "codekiller",
+  "astrict": 90,
+  "select": [
+    "5ed3d9726551544140c95510",
+    "5ed3d9866551544140c95511",
+    "5ed4cc6a6551542f2c30f9c7",
+    "5ed4ce3a6551542f2c30f9c9"
+  ],
+  "judge": [
+    "5ed4cf266551542f2c30f9cc",
+    "5ed4cd046551542f2c30f9c8"
+  ],
+  "selectScore": 20,
+  "judgeScore": 10,
+  "note": "简单的历史测试题",
+  "created": {
+    "$date": "2020-06-01T09:56:21.397Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed7836f655154302881b6e8"
+  },
+  "name": "第二届看看看测试",
+  "subject": 1266333627301752800,
+  "school": "僵尸训练营",
+  "creator": "codekiller",
+  "astrict": 100,
+  "select": [
+    "5ed3d9726551544140c95510",
+    "5ed3d9866551544140c95511",
+    "5ed4cc6a6551542f2c30f9c7",
+    "5ed4ce3a6551542f2c30f9c9",
+    "5ed4ce416551542f2c30f9ca",
+    "5ed4ce6c6551542f2c30f9cb"
+  ],
+  "judge": [
+    "5ed4cd046551542f2c30f9c8",
+    "5ed4cf266551542f2c30f9cc"
+  ],
+  "selectScore": 10,
+  "judgeScore": 5,
+  "note": "<blockquote><span style=\"color: rgb(255, 255, 102);\">简单的历史测试题</span></blockquote>",
+  "created": {
+    "$date": "2020-06-03T11:03:11.109Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed7c6df65515403e41c21f7"
+  },
+  "name": "2012年上海市中考英语试题及答案",
+  "subject": 1266363686624321500,
+  "school": "沪江中学",
+  "creator": "codekiller",
+  "astrict": 20,
+  "select": [
+    "5ed7c25165515419905f5923",
+    "5ed7c28a65515419905f5924",
+    "5ed7c2b065515419905f5925",
+    "5ed7c2e465515419905f5926",
+    "5ed7c31665515419905f5927",
+    "5ed7c25165515419905f5923",
+    "5ed7c28a65515419905f5924",
+    "5ed7c2b065515419905f5925",
+    "5ed7c2e465515419905f5926",
+    "5ed7c31665515419905f5927"
+  ],
+  "judge": [],
+  "selectScore": 10,
+  "judgeScore": 0,
+  "note": "<p>中考英语(选择题)</p>",
+  "created": {
+    "$date": "2020-06-03T15:50:55.122Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5ed8ff18655154465c0458f9"
+  },
+  "name": "高考语文测试题",
+  "subject": 1266325297657278500,
+  "school": "沅江学校",
+  "creator": "codekiller",
+  "astrict": 60,
+  "select": [
+    "5ed8fb63655154465c0458ec",
+    "5ed8fbaa655154465c0458ed",
+    "5ed8fbd2655154465c0458ee",
+    "5ed8fc1a655154465c0458ef",
+    "5ed8fc48655154465c0458f0",
+    "5ed8fc77655154465c0458f1",
+    "5ed8fec6655154465c0458f8"
+  ],
+  "judge": [
+    "5ed8fd20655154465c0458f2",
+    "5ed8fd51655154465c0458f3",
+    "5ed8fd6e655154465c0458f4",
+    "5ed8fd98655154465c0458f5",
+    "5ed8fdb7655154465c0458f6",
+    "5ed8fe29655154465c0458f7"
+  ],
+  "selectScore": 10,
+  "judgeScore": 5,
+  "note": "<blockquote>高考语文选择和判断题<sub>小</sub>测验</blockquote>",
+  "created": {
+    "$date": "2020-06-04T14:03:04.548Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bbd49655154060cfd944b"
+  },
+  "name": "数学测验一",
+  "subject": 1266324796660248600,
+  "school": "史莱克学院",
+  "creator": "codekiller",
+  "astrict": 10,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb16551542f2c30f9c4"
+  ],
+  "judge": [
+    "5ed3d6c66551544140c9550d",
+    "5ed3d8056551544140c9550f"
+  ],
+  "selectScore": 25,
+  "judgeScore": 25,
+  "note": "<p>测验一</p>",
+  "created": {
+    "$date": "2020-07-13T01:47:53.738Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bbe06655154060cfd944c"
+  },
+  "name": "测验二",
+  "subject": 1266324796660248600,
+  "school": "史莱姆学院",
+  "creator": "codekiller",
+  "astrict": 20,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb16551542f2c30f9c4"
+  ],
+  "judge": [
+    "5ed3d6da6551544140c9550e",
+    "5ed3d8056551544140c9550f",
+    "5ed4c9b36551542f2c30f9c3"
+  ],
+  "selectScore": 20,
+  "judgeScore": 20,
+  "note": "<p><span style=\"color: rgb(230, 0, 0);\">测验二</span></p>",
+  "created": {
+    "$date": "2020-07-13T01:51:02.175Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bbf19655154060cfd944d"
+  },
+  "name": "测验三",
+  "subject": 1266324796660248600,
+  "school": "学园都市",
+  "creator": "jianglun",
+  "astrict": 30,
+  "select": [
+    "5ed4cbb16551542f2c30f9c4",
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb16551542f2c30f9c4"
+  ],
+  "judge": [
+    "5ed3d6c66551544140c9550d"
+  ],
+  "selectScore": 25,
+  "judgeScore": 25,
+  "note": "<p><strong style=\"color: rgb(136, 136, 136);\"><em>测验三</em></strong></p>",
+  "created": {
+    "$date": "2020-07-13T01:55:37.554Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bbfb8655154060cfd944e"
+  },
+  "name": "测验四",
+  "subject": 1266324796660248600,
+  "school": "学园都市",
+  "creator": "jianglun",
+  "astrict": 60,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb86551542f2c30f9c5",
+    "5ed4cbc56551542f2c30f9c6"
+  ],
+  "judge": [
+    "5ed3d6c66551544140c9550d",
+    "5ed3d6da6551544140c9550e",
+    "5ed3d8056551544140c9550f",
+    "5ed4c9b36551542f2c30f9c3"
+  ],
+  "selectScore": 20,
+  "judgeScore": 10,
+  "note": "<p><strong style=\"color: rgb(161, 0, 0);\">测验四</strong></p>",
+  "created": {
+    "$date": "2020-07-13T01:58:16.980Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bc0c1655154060cfd944f"
+  },
+  "name": "英语小测验",
+  "subject": 1266363686624321500,
+  "school": "艾雷西亚学院",
+  "creator": "jianglun",
+  "astrict": 20,
+  "select": [
+    "5ed7c25165515419905f5923",
+    "5ed7c28a65515419905f5924",
+    "5ed7c2b065515419905f5925",
+    "5ed7c2e465515419905f5926"
+  ],
+  "judge": [],
+  "selectScore": 30,
+  "judgeScore": 0,
+  "note": "<p><span style=\"color: rgb(0, 41, 102);\">英语小测验</span></p>",
+  "created": {
+    "$date": "2020-07-13T02:02:41.813Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bc15c655154060cfd9450"
+  },
+  "name": "语文常识小测验",
+  "subject": 1266325297657278500,
+  "school": "一国学校",
+  "creator": "jianglun",
+  "astrict": 20,
+  "select": [
+    "5ed8fb63655154465c0458ec",
+    "5ed8fbaa655154465c0458ed",
+    "5ed8fbd2655154465c0458ee",
+    "5ed8fc1a655154465c0458ef",
+    "5ed8fc48655154465c0458f0",
+    "5ed8fc77655154465c0458f1",
+    "5ed8fec6655154465c0458f8"
+  ],
+  "judge": [
+    "5ed8fd20655154465c0458f2",
+    "5ed8fd51655154465c0458f3",
+    "5ed8fd6e655154465c0458f4",
+    "5ed8fd98655154465c0458f5",
+    "5ed8fdb7655154465c0458f6",
+    "5ed8fe29655154465c0458f7"
+  ],
+  "selectScore": 20,
+  "judgeScore": 10,
+  "note": "<p><span style=\"color: rgb(178, 107, 0);\">语文常识小测验</span></p><p><br></p>",
+  "created": {
+    "$date": "2020-07-13T02:05:16.870Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0bc32c655154060cfd9451"
+  },
+  "name": "综合小测验",
+  "subject": 1266661195234037800,
+  "school": "九江学院",
+  "creator": "jianglun",
+  "astrict": 30,
+  "select": [
+    "5ed226886551543598d5c4f4",
+    "5ed294f06551541d5c6de1bd",
+    "5ed7c2e465515419905f5926",
+    "5ed7c31665515419905f5927",
+    "5ed8fbaa655154465c0458ed",
+    "5ed8fbd2655154465c0458ee",
+    "5ed3d9726551544140c95510"
+  ],
+  "judge": [
+    "5ed4cd046551542f2c30f9c8",
+    "5ed8fd98655154465c0458f5",
+    "5ed8fe29655154465c0458f7"
+  ],
+  "selectScore": 10,
+  "judgeScore": 10,
+  "note": "<p><strong style=\"color: rgb(161, 0, 0);\">综合小测验</strong></p><p><br></p>",
+  "created": {
+    "$date": "2020-07-13T02:13:00.920Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0c8d1965515434743b9c6c"
+  },
+  "name": "数学期末小测验",
+  "subject": 1266324796660248600,
+  "school": "王家井学校",
+  "creator": "jianglun",
+  "astrict": 60,
+  "select": [
+    "5ed294f06551541d5c6de1bd",
+    "5ed4cbb16551542f2c30f9c4",
+    "5ed4cbb86551542f2c30f9c5",
+    "5ed4cbc56551542f2c30f9c6",
+    "5f0c8ae465515434743b9c68",
+    "5f0c8b0b65515434743b9c69",
+    "5f0c8c2265515434743b9c6a",
+    "5f0c8cc365515434743b9c6b"
+  ],
+  "judge": [
+    "5ed3d6c66551544140c9550d",
+    "5ed3d6da6551544140c9550e"
+  ],
+  "selectScore": 10,
+  "judgeScore": 10,
+  "note": "<p><strong style=\"color: rgb(178, 107, 0);\">数学检测题</strong></p>",
+  "created": {
+    "$date": "2020-07-13T16:34:33.352Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0d3f0a655154442cd2c3e1"
+  },
+  "name": "化学小测验一",
+  "subject": 1266334063878467600,
+  "school": "榊野学园",
+  "creator": "codekiller",
+  "astrict": 30,
+  "select": [
+    "5f0d3c5a655154442cd2c3d6",
+    "5f0d3cab655154442cd2c3d7",
+    "5f0d3cd5655154442cd2c3d8",
+    "5f0d3d04655154442cd2c3d9",
+    "5f0d3d64655154442cd2c3da",
+    "5f0d3e5e655154442cd2c3df",
+    "5f0d3e8b655154442cd2c3e0"
+  ],
+  "judge": [
+    "5f0d3dab655154442cd2c3db",
+    "5f0d3dd3655154442cd2c3dc",
+    "5f0d3df7655154442cd2c3dd",
+    "5f0d3e30655154442cd2c3de"
+  ],
+  "selectScore": 10,
+  "judgeScore": 7.5,
+  "note": "<p><span style=\"background-color: rgb(230, 0, 0);\">一份简单化学测验题</span></p>",
+  "created": {
+    "$date": "2020-07-14T05:13:46.308Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f0d4123655154442cd2c3e6"
+  },
+  "name": "物理小知识答题",
+  "subject": 1266365648090587100,
+  "school": "私立椚ヶ丘中学校",
+  "creator": "codekiller",
+  "astrict": 10,
+  "select": [
+    "5f0d406a655154442cd2c3e2",
+    "5f0d4090655154442cd2c3e3",
+    "5f0d40bc655154442cd2c3e4",
+    "5f0d40e4655154442cd2c3e5"
+  ],
+  "judge": [],
+  "selectScore": 25,
+  "judgeScore": 0,
+  "note": "<p><strong>物理小知识</strong></p>",
+  "created": {
+    "$date": "2020-07-14T05:22:43.130Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f100cb06551542270a13770"
+  },
+  "name": "语文小测验",
+  "subject": 1266325297657278500,
+  "school": "球球国学",
+  "creator": "codekiller",
+  "astrict": 10,
+  "select": [
+    "5ed8fb63655154465c0458ec",
+    "5ed8fbaa655154465c0458ed"
+  ],
+  "judge": [
+    "5ed8fd20655154465c0458f2",
+    "5ed8fd51655154465c0458f3"
+  ],
+  "selectScore": 25,
+  "judgeScore": 25,
+  "note": "<p><span style=\"background-color: rgb(92, 0, 0);\">语文小知识</span></p>",
+  "created": {
+    "$date": "2020-07-16T08:15:44.009Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f1330526551542cd4db0ac3"
+  },
+  "name": "跳跳跳",
+  "subject": 1266324796660248600,
+  "school": "卡卡卡",
+  "creator": "codekiller",
+  "astrict": 60,
+  "select": [
+    "5ed226886551543598d5c4f4"
+  ],
+  "judge": [],
+  "selectScore": 25,
+  "judgeScore": 0,
+  "note": "",
+  "created": {
+    "$date": "2020-07-18T17:24:34.347Z"
+  },
+  "publish": false,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+},{
+  "_id": {
+    "$oid": "5f1330c06551542cd4db0ac4"
+  },
+  "name": "音乐测试",
+  "subject": 1284535166583373800,
+  "school": "音乐学校",
+  "creator": "codekiller",
+  "astrict": 60,
+  "select": [
+    "5f132ced6551542cd4db0abb",
+    "5f132d356551542cd4db0abd"
+  ],
+  "judge": [
+    "5f132d4b6551542cd4db0abf",
+    "5f132d5c6551542cd4db0ac1"
+  ],
+  "selectScore": 25,
+  "judgeScore": 25,
+  "note": "<p><span style=\"color: rgb(255, 153, 0);\">音乐小测试</span></p>",
+  "created": {
+    "$date": "2020-07-18T17:26:24.786Z"
+  },
+  "publish": true,
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Test"
+}]

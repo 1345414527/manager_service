@@ -1,0 +1,331 @@
+[{
+  "_id": {
+    "$oid": "5f100e596551542270a13771"
+  },
+  "userId": "1263099442499883008",
+  "userName": "codekiller",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-16T08:22:49.656Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f10174d6551543ad806c01b"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了一个学科地质",
+  "create": {
+    "$date": "2020-07-16T09:01:01.744Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1017ba6551543ad806c01c"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息地质: 勘查技术与工程是一个好专业,牛逼呀!",
+  "create": {
+    "$date": "2020-07-16T09:02:50.090Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1035c16551541ae8c5c54b"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263517922281848833试卷，并将考试状态置位未考试,考试次数置为0",
+  "create": {
+    "$date": "2020-07-16T11:10:57.045Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1038026551541e800021c7"
+  },
+  "userId": "1263517922281848833",
+  "userName": "jianglun",
+  "info": "删除了考试5f0bbf19655154060cfd944d的订阅信息",
+  "create": {
+    "$date": "2020-07-16T11:20:34.651Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1038116551541e800021c8"
+  },
+  "userId": "1263517922281848833",
+  "userName": "jianglun",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-16T11:20:49.903Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1038cb6551541e800021c9"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263517922281848833试卷5f0bbe06655154060cfd944c，并将考试状态设为再次考试",
+  "create": {
+    "$date": "2020-07-16T11:23:55.588Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1038e66551541e800021ca"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263517922281848833试卷5f0bbe06655154060cfd944c，并将考试状态置位未考试,考试次数置为0",
+  "create": {
+    "$date": "2020-07-16T11:24:22.644Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f10390c6551541e800021cb"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263517922281848833试卷5f0bbe06655154060cfd944c，并将考试状态置位未考试,考试次数置为0",
+  "create": {
+    "$date": "2020-07-16T11:25:00.807Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1039346551541e800021cc"
+  },
+  "userId": "1263517922281848833",
+  "userName": "jianglun",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-16T11:25:40.932Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1055576551542234bf3d0c"
+  },
+  "userId": "1263388112289239042",
+  "userName": "userllss",
+  "info": "新增了一个考试5ed4d0c56551542f2c30f9ce的订阅",
+  "create": {
+    "$date": "2020-07-16T13:25:43.490Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1056156551542234bf3d0d"
+  },
+  "userId": "1263388112289239042",
+  "userName": "userllss",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-16T13:28:53.186Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f13174f6551542cd4db0ab5"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息数学: 数学，一门有趣的学科，走起！！！",
+  "create": {
+    "$date": "2020-07-18T15:37:50.935Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132c036551542cd4db0ab6"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息数学: 数学，一门有趣的学科，走起！！！！",
+  "create": {
+    "$date": "2020-07-18T17:06:11.798Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132c176551542cd4db0ab7"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息数学: 数学，一门有趣的学科，走起！！！！",
+  "create": {
+    "$date": "2020-07-18T17:06:31.192Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132c176551542cd4db0ab8"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息数学: 数学，一门有趣的学科，走起！！！！",
+  "create": {
+    "$date": "2020-07-18T17:06:31.300Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132c1f6551542cd4db0ab9"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "修改了一个学科的信息数学: 数学，一门有趣的学科，走起！！！！",
+  "create": {
+    "$date": "2020-07-18T17:06:39.797Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132c376551542cd4db0aba"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了一个学科音乐",
+  "create": {
+    "$date": "2020-07-18T17:07:03.887Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132ced6551542cd4db0abc"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了1284535166583373825学科的试题5f132ced6551542cd4db0abb",
+  "create": {
+    "$date": "2020-07-18T17:10:05.969Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132d366551542cd4db0abe"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了1284535166583373825学科的试题5f132d356551542cd4db0abd",
+  "create": {
+    "$date": "2020-07-18T17:11:18.008Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132d4b6551542cd4db0ac0"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了1284535166583373825学科的试题5f132d4b6551542cd4db0abf",
+  "create": {
+    "$date": "2020-07-18T17:11:39.754Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f132d5c6551542cd4db0ac2"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了1284535166583373825学科的试题5f132d5c6551542cd4db0ac1",
+  "create": {
+    "$date": "2020-07-18T17:11:56.338Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1330fb6551542cd4db0ac5"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "发布了新的考试5f1330c06551542cd4db0ac4",
+  "create": {
+    "$date": "2020-07-18T17:27:23.119Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1333146551542cd4db0ac6"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了一个考试5f1330c06551542cd4db0ac4的订阅",
+  "create": {
+    "$date": "2020-07-18T17:36:20.191Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1333ae6551542cd4db0ac7"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-18T17:38:54.246Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1334296551542cd4db0ac8"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263099442499883010试卷5f1330c06551542cd4db0ac4，并将考试状态设为再次考试",
+  "create": {
+    "$date": "2020-07-18T17:40:57.539Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1334556551542cd4db0ac9"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "提交试卷，并覆盖了成绩。第1次提交",
+  "create": {
+    "$date": "2020-07-18T17:41:41.379Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f13347e6551542cd4db0aca"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "codekiller重置考生1263099442499883010试卷5f1330c06551542cd4db0ac4，并将考试状态置位未考试,考试次数置为0",
+  "create": {
+    "$date": "2020-07-18T17:42:22.686Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1334c76551542cd4db0acb"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "新增了一个考试5f1330c06551542cd4db0ac4的订阅",
+  "create": {
+    "$date": "2020-07-18T17:43:35.042Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+},{
+  "_id": {
+    "$oid": "5f1334da6551542cd4db0acc"
+  },
+  "userId": "1263099442499883010",
+  "userName": "codekiller",
+  "info": "提交试卷，第1次提交",
+  "create": {
+    "$date": "2020-07-18T17:43:54.478Z"
+  },
+  "_class": "top.codekiller.manager.examination.pojo.log.ExamLog"
+}]

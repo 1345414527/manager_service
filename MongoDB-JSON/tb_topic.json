@@ -1,0 +1,1281 @@
+[{
+  "_id": {
+    "$oid": "5ed226886551543598d5c4f4"
+  },
+  "name": "从器件角度看，计算机经历了五代变化。但从系统结构看，至今绝大多数计算机仍属于（  ）计算机。",
+  "select": {
+    "0": "并行",
+    "1": "冯诺依曼",
+    "2": "智能",
+    "3": "串行"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266661195234037800,
+  "note": "计算机组成原理欧",
+  "created": {
+    "$date": "2020-05-30T09:25:28.527Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed294f06551541d5c6de1bd"
+  },
+  "name": "ｆ（ｘ）在（ａ，ｂ）可导，ａ〈ｘ1〈ｘ2〈ｂ，则至少有一点ζ∈（ａ，ｂ）使( )",
+  "select": {
+    "0": "ｆ（ｂ）－ｆ（ａ）＝ｆ'（ζ）（ｂ－ａ）",
+    "1": "ｆ（ｂ）－ｆ（ａ）＝ｆ'（ζ）（ｘ2－ｘ1）",
+    "2": "ｆ（ｘ2）－ｆ（ｘ1）＝ｆ'（ζ）（ｂ－ａ）",
+    "3": "ｆ（ｘ2）－ｆ（ｘ1）＝ｆ'（ζ）（ｘ2－ｘ1）"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "codekiller出题，一道导数题",
+  "image": "",
+  "created": {
+    "$date": "2020-05-30T17:16:32.077Z"
+  },
+  "deleted": true,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed3d6c66551544140c9550d"
+  },
+  "name": "1+1=2,对吗?",
+  "select": {
+    "0": "对",
+    "1": "对错2",
+    "2": "dsa",
+    "3": "dsa"
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266324796660248600,
+  "note": "智商题呀！！！",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU017T4syAAT2zAAKrk0jDPLc899.jpg",
+  "created": {
+    "$date": "2020-05-31T16:09:42.014Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed3d6da6551544140c9550e"
+  },
+  "name": "1+1=2,对吗",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266324796660248600,
+  "note": "",
+  "image": "",
+  "created": {
+    "$date": "2020-05-31T16:10:02.392Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed3d8056551544140c9550f"
+  },
+  "name": "2+2=3,对吗",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266324796660248600,
+  "note": "送命题呀！！！",
+  "image": "",
+  "created": {
+    "$date": "2020-05-31T16:15:01.217Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed3d9726551544140c95510"
+  },
+  "name": "曹操的死亡时间（）",
+  "select": {
+    "0": "公元218年",
+    "1": "公元219年",
+    "2": "公元220年",
+    "3": "公元221年"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "codekiller出题,一道简单的三国历史题！",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU017T2WGAaKoZAAATbiJch9E933.jpg",
+  "created": {
+    "$date": "2020-05-31T16:21:06.210Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed3d9866551544140c95511"
+  },
+  "name": "曹操的死亡时间",
+  "select": {
+    "0": "公元218",
+    "1": "公元219",
+    "2": "公元220",
+    "3": "公元221"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "codekiller出题,一道简单的三国历史题",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU017T2WGAaKoZAAATbiJch9E933.jpg",
+  "created": {
+    "$date": "2020-05-31T16:21:26.147Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4c9b36551542f2c30f9c3"
+  },
+  "name": "2+2=4,对吗?",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266324796660248600,
+  "note": "不想说什么了",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:26:11.243Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cbb16551542f2c30f9c4"
+  },
+  "name": "将下列一元二次方程化成一般形式后，其中二次项系数是3，一次项系数是－6，常数项是1的方程是（）",
+  "select": {
+    "0": "3x2+1=6x",
+    "1": "3x2－1=6x",
+    "2": "3x2+6x=1",
+    "3": "3x2－6x=12"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "codekiller出题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:34:41.096Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cbb86551542f2c30f9c5"
+  },
+  "name": "将下列一元二次方程化成一般形式后，其中二次项系数是3，一次项系数是－6，常数项是1的方程是（）",
+  "select": {
+    "0": "3x2+1=6x",
+    "1": "3x2－1=6x",
+    "2": "3x2+6x=1",
+    "3": "3x2－6x=12"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "codekiller出题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:34:48.851Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cbc56551542f2c30f9c6"
+  },
+  "name": "将下列一元二次方程化成一般形式后，其中二次项系数是3，一次项系数是－6，常数项是1的方程是（）",
+  "select": {
+    "0": "3x2+1=6x",
+    "1": "3x2－1=6x",
+    "2": "3x2+6x=1",
+    "3": "3x2－6x=12"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "codekiller出题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:35:01.205Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cc6a6551542f2c30f9c7"
+  },
+  "name": "战国时期，秦国第一个称王的是谁？",
+  "select": {
+    "0": "嬴政",
+    "1": "嬴稷",
+    "2": "嬴渠梁",
+    "3": "嬴驷"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "战国历史送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:37:46.856Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cd046551542f2c30f9c8"
+  },
+  "name": "白起是被嬴稷处死的吗？",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266333627301752800,
+  "note": "历史送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:40:20.174Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4ce3a6551542f2c30f9c9"
+  },
+  "name": "三国时，魏国五子良将之首是谁？",
+  "select": {
+    "0": "张郃",
+    "1": "乐进",
+    "2": "于禁",
+    "3": "张辽"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "三国历史送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:45:30.525Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4ce416551542f2c30f9ca"
+  },
+  "name": "三国时，魏国五子良将之首是谁？",
+  "select": {
+    "0": "张郃",
+    "1": "乐进",
+    "2": "于禁",
+    "3": "张辽"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "三国历史送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:45:37.722Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4ce6c6551542f2c30f9cb"
+  },
+  "name": "三国时，魏国五子良将之首是谁？",
+  "select": {
+    "0": "张郃",
+    "1": "乐进",
+    "2": "于禁",
+    "3": "张辽"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266333627301752800,
+  "note": "三国历史送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:46:20.500Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed4cf266551542f2c30f9cc"
+  },
+  "name": "曹芳是曹睿的亲生儿子",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266333627301752800,
+  "note": "三国送分题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-01T09:49:26.011Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c23965515419905f5922"
+  },
+  "name": " Could I have an early morning call ________six o'clock tomorrow?",
+  "select": {
+    "0": "on",
+    "1": "to",
+    "2": "at",
+    "3": "in"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:31:05.140Z"
+  },
+  "deleted": true,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c25165515419905f5923"
+  },
+  "name": "Could I have an early morning call ________six o'clock tomorrow?",
+  "select": {
+    "0": "on",
+    "1": "to",
+    "2": "at",
+    "3": "in"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:31:29.145Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c28a65515419905f5924"
+  },
+  "name": "We have decided to try ________ best to raise more money for the local charity.",
+  "select": {
+    "0": "us",
+    "1": "our",
+    "2": "we",
+    "3": "ours"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:32:26.406Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c2b065515419905f5925"
+  },
+  "name": "You really don't have to worry ________ your weight. You look just right.",
+  "select": {
+    "0": "for",
+    "1": "form",
+    "2": "with",
+    "3": "about"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:33:04.672Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c2e465515419905f5926"
+  },
+  "name": "I can't connect my computer to the Intemet. There must be ______ wrong with it.",
+  "select": {
+    "0": "something",
+    "1": "everything",
+    "2": "anything",
+    "3": "nothing"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:33:56.668Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c31665515419905f5927"
+  },
+  "name": "The baby feels _________ while his mother holds him in her arms.",
+  "select": {
+    "0": "save",
+    "1": "safe",
+    "2": "safely",
+    "3": "safety"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:34:46.768Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed7c5d965515419905f5928"
+  },
+  "name": "Pudong International Airport is one of airports in the world.",
+  "select": {
+    "0": "big",
+    "1": "bigger",
+    "2": "biggest",
+    "3": "the biggest"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266363686624321500,
+  "note": "中考英语",
+  "image": "",
+  "created": {
+    "$date": "2020-06-03T15:46:33.542Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fb63655154465c0458ec"
+  },
+  "name": "下列词语中加点字的读音，全都不相同的一组是",
+  "select": {
+    "0": "翌日 翳蔽 自怨自艾 翕然从之",
+    "1": "剽窃 骠勇 四处漂泊 路有饿殍",
+    "2": "害臊 聒噪 不骄不躁 藻类植物",
+    "3": "蘑菇 羁縻 风靡一时 旌麾南指"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:47:15.179Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fbaa655154465c0458ed"
+  },
+  "name": "下列词语中加点字的读音，全都不相同的一组是",
+  "select": {
+    "0": "佣工 陶俑 捅破 土壅川决四通八达",
+    "1": "恒心 盘桓 煊赫 心照不宣 颓垣断壁",
+    "2": "糯米 儒雅 怯懦 耳濡目染 孺子可教",
+    "3": "疏浚 逡巡 皴裂 日月如梭 怙恶不悛"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:48:26.585Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fbd2655154465c0458ee"
+  },
+  "name": "下列词语中加点字的读音，全都不相同的一组是 ",
+  "select": {
+    "0": "篆书 椽笔 掾吏 不容置喙",
+    "1": "讥诮 肖像 走俏 积毁销骨",
+    "2": "桔梗 秸秆 拮据 佶屈聱牙",
+    "3": "滇池 缜密 娇嗔 瞋目怒视"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:49:06.987Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fc1a655154465c0458ef"
+  },
+  "name": "下列词语中加点字的读音，全都正确的一组是 ",
+  "select": {
+    "0": "奖掖（yâ） 贮存（zhù） 按捺（nài） 棱角分明（lãng）",
+    "1": "遒劲（qiú） 嗜好（shì） 渐染（jiàn） 相形见绌（chù）",
+    "2": "箴言（zhēn） 矜持（jīn） 佣金（yîng） 噤若寒蝉（jìn）",
+    "3": "彪马（biāo） 恫吓（dîng） 聒噪（guō） 瞠目结舌（táng）"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:50:18.282Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fc48655154465c0458f0"
+  },
+  "name": "下列词语中加点字的读音完全正确的一组是",
+  "select": {
+    "0": "悭吝（jiān） 采撷（xiã） 风尘仆仆（pū） 处变不惊（chǔ）",
+    "1": "思忖（cǔn） 羞赧（nǎn） 雕栏玉砌（qì） 诲人不倦（huì）",
+    "2": "菲薄（fěi） 毗邻（pì） 拈轻怕重（diān） 掎角之势（jǐ）",
+    "3": "拜谒（yâ） 隽永（jùn） 栉风沐雨（jiã） 恬退隐忍（tián）"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:51:04.776Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fc77655154465c0458f1"
+  },
+  "name": "下列词语中加点的字，每组读音都相同的一项是",
+  "select": {
+    "0": "弱冠/夺冠 几乎/窗明几净 石碣/竭泽而渔",
+    "1": "亲切/亲家 呼吁/长吁短叹 渎职/买椟还珠",
+    "2": "熨斗/熨帖 标识/博闻强识 囫囵/ 身陷囹圄",
+    "3": "佝偻/伛偻 提供/供认不讳 翁媪/面带愠色"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:51:51.951Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fd20655154465c0458f2"
+  },
+  "name": "古人常用“庠序”指代学校，如《孟子·国人之于国也》的“谨庠序之教”的“庠序”就是这个意思。",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:54:40.768Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fd51655154465c0458f3"
+  },
+  "name": "韩愈的《师说》有“六艺经传，皆通习之”一句，其中的“六艺”是指礼、乐、射、御、书、术这六种基本技能。",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:55:29.368Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fd6e655154465c0458f4"
+  },
+  "name": "大学是我国古代的最高学府，有时也是教育行政机构。（    ）",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:55:58.618Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fd98655154465c0458f5"
+  },
+  "name": "博士和教授都是指古代的学者或博学多才之人，与官职没有任何关系。（    ）",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:56:40.073Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fdb7655154465c0458f6"
+  },
+  "name": "书院是古代的一种独立的教育机构，是由私人所设立的与官府没有任何关系的聚徒讲授、研究学问的场所，如岳麓书院、白鹿洞书院、容山书院等。（    ）",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:57:11.134Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fe29655154465c0458f7"
+  },
+  "name": "察举是汉代选拔官吏的一种形式，朝廷专门选那些孝顺父母的人，封之以“孝廉”的荣誉称号并加以重用。（    ）",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266325297657278500,
+  "note": "高考古文化常识判断题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T13:59:05.331Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5ed8fec6655154465c0458f8"
+  },
+  "name": "下列各句中加点的成语使用恰当的一项是 ( )",
+  "select": {
+    "0": "在中华人民共和国成立六十周年的国庆阅兵式上，中国军方多款新型武器装备的展示，引发了西方军事专家捕风捉影的各式猜测。",
+    "1": "山西省利用国际金融危机带来的产业洗牌机遇，断然终结“小煤矿”时代，改头换面地大步迈进“大煤炭经济时代”",
+    "2": "10月1日晚，长沙市为庆祝建国60周年举行了盛大的焰火晚会，湘江两岸人头攒动，出现了万人空巷齐睹美景的盛况。",
+    "3": "“北京当代十大建筑”评选结果揭晓，“鸟巢”、“水立方”、国家体育馆、首都博物馆、北京 电视中心等新式建筑均脱颖而出。"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266325297657278500,
+  "note": "高考语文选择题",
+  "image": "",
+  "created": {
+    "$date": "2020-06-04T14:01:42.394Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0c8ae465515434743b9c68"
+  },
+  "name": "ｘ→0 时，ｘｓｉｎ──＋１是（）",
+  "select": {
+    "0": "无穷大量",
+    "1": "无穷小量",
+    "2": "有界变量",
+    "3": "无界变量"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "高数一",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018Mit2AXlHEAAATVevxt18158_60x60.jpg",
+  "created": {
+    "$date": "2020-07-13T16:25:07.912Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0c8b0b65515434743b9c69"
+  },
+  "name": "ｘ→0 时，ｘｓｉｎ──＋１是（）",
+  "select": {
+    "0": "无穷大量",
+    "1": "无穷小量",
+    "2": "有界变量",
+    "3": "无界变量"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "高数一",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018Mit2AXlHEAAATVevxt18158_60x60.jpg",
+  "created": {
+    "$date": "2020-07-13T16:25:47.441Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0c8c2265515434743b9c6a"
+  },
+  "name": "若在区间（ａ，ｂ）内恒有ｆ'（ｘ）〈０，ｆ\"（ｘ）〉０，则在（ａ，ｂ）内曲线弧ｙ＝ｆ（ｘ）为（）",
+  "select": {
+    "0": "上升的凸弧",
+    "1": "下降的凸弧",
+    "2": "上升的凹弧",
+    "3": "下降的凹弧"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "高数一",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018MjBCAf-uhAAAi0qq6pqE434_60x60.jpg",
+  "created": {
+    "$date": "2020-07-13T16:30:26.066Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0c8cc365515434743b9c6b"
+  },
+  "name": "下列说法正确的是（）",
+  "select": {
+    "0": "若ｆ（X ）在X＝Xo连续，则ｆ（X ）在X＝Xo可导",
+    "1": "若ｆ（X ）在X＝Xo不可导，则ｆ（X ）在X＝Xo不连续",
+    "2": "若ｆ（X ）在X＝Xo不可微，则ｆ（X ）在X＝Xo极限不存在",
+    "3": "若ｆ（X ）在X＝Xo不连续，则ｆ（X ）在X＝Xo不可导"
+  },
+  "answer": "3",
+  "type": 0,
+  "subject": 1266324796660248600,
+  "note": "高数一",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018MjL6AV3WzAAAb8wIddgc196_60x60.jpg",
+  "created": {
+    "$date": "2020-07-13T16:33:07.968Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3c49655154442cd2c3d5"
+  },
+  "name": "温度下，反应2NO（g）+ O2（g）⇌ 2NO2（g）达到平衡是因为( )",
+  "select": {
+    "0": "反应已停止",
+    "1": "反应物中的一种已消耗完",
+    "2": "正逆反应速度相等",
+    "3": "两种反应物都刚好消耗完"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学反应式试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:02:01.198Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3c5a655154442cd2c3d6"
+  },
+  "name": "温度下，反应2NO（g）+ O2（g）⇌ 2NO2（g）达到平衡是因为( )",
+  "select": {
+    "0": "反应已停止",
+    "1": "反应物中的一种已消耗完",
+    "2": "正逆反应速度相等",
+    "3": "两种反应物都刚好消耗完"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学反应式试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:02:18.710Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3cab655154442cd2c3d7"
+  },
+  "name": "25℃时，0.01mol•L-1的糖水的渗透压为∏1，而0.01mol•L-1的尿素水溶液的渗透压为∏2，则( )",
+  "select": {
+    "0": "∏1<∏2",
+    "1": "∏1>∏2",
+    "2": "∏1=∏2",
+    "3": "无法确定"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:03:39.129Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3cd5655154442cd2c3d8"
+  },
+  "name": "当AgNO3的稀溶液与KI的稀溶液作用时，若 AgNO3过量时，此溶胶",
+  "select": {
+    "0": "不带电",
+    "1": "带正电",
+    "2": "带负电",
+    "3": "无法确定"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:04:21.938Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3d04655154442cd2c3d9"
+  },
+  "name": "摩尔分数的单位是",
+  "select": {
+    "0": "mol",
+    "1": "1",
+    "2": "mol· kg－1",
+    "3": "mol· L－1"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:05:08.227Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3d64655154442cd2c3da"
+  },
+  "name": "某反应物在一定条件下的平衡转化率为35%，当加入催化剂时，若反应条件与前相同，此时它的平衡转化率是 ( )",
+  "select": {
+    "0": "大于35%",
+    "1": "等于35%",
+    "2": "无法知道",
+    "3": "小于35%"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:06:44.188Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3dab655154442cd2c3db"
+  },
+  "name": "H2O和OH-属于共轭酸碱对 ",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:07:55.338Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3dd3655154442cd2c3dc"
+  },
+  "name": "准确度越高则精密度越好 ",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:08:35.869Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3df7655154442cd2c3dd"
+  },
+  "name": "消除了系统误差后，精密度越好准确度越高",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:09:11.160Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3e30655154442cd2c3de"
+  },
+  "name": "3s,3f,4d都是存在的能级",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:10:08.374Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3e5e655154442cd2c3df"
+  },
+  "name": "对于反应CO（g）+ H2O（g）⇌ CO2（g）+ H2（g），如果要提高CO的转化率可以采用( )",
+  "select": {
+    "0": "增加CO的量",
+    "1": "增加H2O（g）的量",
+    "2": "两种办法都可以",
+    "3": "两种办法都不可以"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:10:54.164Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d3e8b655154442cd2c3e0"
+  },
+  "name": "升温使反应速率加快的主要原因是",
+  "select": {
+    "0": "温度升高，分子碰撞更加频繁",
+    "1": "温度升高，可以使平衡右移",
+    "2": "活化分子的百分数随温度的升高而增加",
+    "3": "反应物分子所产生的压力随温度升高而增大"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266334063878467600,
+  "note": "化学小试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:11:39.927Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d406a655154442cd2c3e2"
+  },
+  "name": "想从镜子里看到放大的像应该使用()。",
+  "select": {
+    "0": "凸面镜",
+    "1": "凹面镜",
+    "2": "平面镜",
+    "3": "没有正确答案"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1266365648090587100,
+  "note": "初中物理小知识",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:19:38.283Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d4090655154442cd2c3e3"
+  },
+  "name": "一朵花放在夹角为60°两面镜子中间，从镜子里可以看到()。",
+  "select": {
+    "0": "2朵",
+    "1": "4朵",
+    "2": "5朵",
+    "3": "6朵"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266365648090587100,
+  "note": "初中物理小知识",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:20:16.451Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d40bc655154442cd2c3e4"
+  },
+  "name": "在游泳池的水下，仰望水面，水面()。",
+  "select": {
+    "0": "清澈透明",
+    "1": "浑浊",
+    "2": "像水银一样反光",
+    "3": "无正确答案"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266365648090587100,
+  "note": "初中物理小知识",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:21:00.306Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f0d40e4655154442cd2c3e5"
+  },
+  "name": "彩色电视荧光屏上的彩色是3种光合成的()。",
+  "select": {
+    "0": "红、黄、蓝",
+    "1": "红、黄、青",
+    "2": "红、绿、蓝",
+    "3": "红、绿、青"
+  },
+  "answer": "2",
+  "type": 0,
+  "subject": 1266365648090587100,
+  "note": "初中物理小知识",
+  "image": "",
+  "created": {
+    "$date": "2020-07-14T05:21:40.257Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f132ced6551542cd4db0abb"
+  },
+  "name": "谁被称为乐圣?",
+  "select": {
+    "0": "莫扎特",
+    "1": "贝多芬",
+    "2": "巴赫",
+    "3": "亨德尔"
+  },
+  "answer": "1",
+  "type": 0,
+  "subject": 1284535166583373800,
+  "note": "音乐试题",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018TLOmAbHmLAAAaub66QJI386_60x60.jpg",
+  "created": {
+    "$date": "2020-07-18T17:10:05.928Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f132d356551542cd4db0abd"
+  },
+  "name": "谁被称为音乐神童? ",
+  "select": {
+    "0": "莫扎特",
+    "1": "贝多芬",
+    "2": "巴赫",
+    "3": "亨德尔"
+  },
+  "answer": "0",
+  "type": 0,
+  "subject": 1284535166583373800,
+  "note": "音乐试题",
+  "image": "http://image.codekiller.top/group1/M00/00/00/rBEU018TLTGAW9hyAAAV01BOyqw802_60x60.jpg",
+  "created": {
+    "$date": "2020-07-18T17:11:17.970Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f132d4b6551542cd4db0abf"
+  },
+  "name": "一个全音包含半个半音",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "0",
+  "type": 1,
+  "subject": 1284535166583373800,
+  "note": "音乐试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-18T17:11:39.713Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+},{
+  "_id": {
+    "$oid": "5f132d5c6551542cd4db0ac1"
+  },
+  "name": "写在音符下面的横线叫增时线",
+  "select": {
+    "0": "",
+    "1": "",
+    "2": "",
+    "3": ""
+  },
+  "answer": "1",
+  "type": 1,
+  "subject": 1284535166583373800,
+  "note": "音乐试题",
+  "image": "",
+  "created": {
+    "$date": "2020-07-18T17:11:56.303Z"
+  },
+  "deleted": false,
+  "_class": "top.codekiller.manager.examination.pojo.Topic"
+}]
