@@ -34,7 +34,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <mybatis.plus.starter.version>3.3.1</mybatis.plus.starter.version>
         <druid.starter.version>1.1.20</druid.starter.version>
-        <mysql.version>5.1.38</mysql.version>
+        <mysql.version>8.0.28</mysql.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
         <aliyun.sdk.core.version>4.4.3</aliyun.sdk.core.version>
         <lombok.version>1.18.12</lombok.version>
